@@ -10,6 +10,7 @@ export default function Logo() {
                 height={40.44} 
                 width={253} 
                 priority={true}
+                className="logo"
             />
         </>
     )
