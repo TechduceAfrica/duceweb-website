@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link"
 
 export default function Socials({ Menu }) {
@@ -6,7 +5,13 @@ export default function Socials({ Menu }) {
         <>
             {Menu.map((icon, index) =>
                 (
-                    <Link href={icon.url} key={index} dangerouslySetInnerHTML={ {__html: icon.svg} }>
+                    <Link 
+                        href={icon.url}
+                        title={icon.title}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        key={index} 
+                        dangerouslySetInnerHTML={ {__html: icon.svg} }>
                     </Link>
                 )
             )}
