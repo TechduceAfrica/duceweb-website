@@ -132,4 +132,7 @@ button:hover{
   max-height: 40.44px;
   aspect-ratio: 253/40.44;
 }
+.not__active{
+  opacity: 0.5;
+}
 
