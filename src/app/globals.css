@@ -108,6 +108,7 @@ p{
 a{
   color: inherit;
   text-decoration: none;
+  transition: all 300ms ease-in-out;
 }
 button{
   padding: 1rem 40px;
