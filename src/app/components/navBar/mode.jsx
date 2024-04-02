@@ -1,27 +1,20 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import { motion } from "framer-motion"
-import { modeAni, transitionValues } from './animate'
+import { modeAni, transitionValues } from './Lib/animate'
+import useModeState from './Lib/modeState'
 import style from "./navbar.module.css"
 
 export default function Mode() {
 
-    const [isActive, setIsActive] = useState(true);
+    const { isActive, toggleMode } = useModeState();
 
     useEffect(() => {
         const savedMode = localStorage.getItem('preferredMode');
         if (savedMode) {
-            setIsActive(savedMode === 'dark');
+            document.documentElement.setAttribute('data-theme', savedMode);
         }
     }, []);
-
-    const toggleMode = () => { 
-        const newMode = !isActive ? 'dark' : 'light';
-        setIsActive(!isActive);
-        localStorage.setItem('preferredMode', newMode);
-        console.log('click');
-        document.documentElement.setAttribute('data-theme', newMode);
-    };
 
     return (
         <div className={style.mode}>
