@@ -1,6 +1,7 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/navBar";
+import Footer from "./components/footer";
 
 const inter = Outfit({ subsets: ["latin"] });
 
@@ -11,10 +12,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body className={inter.className}>
         <NavBar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
