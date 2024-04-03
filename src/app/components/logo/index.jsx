@@ -1,16 +1,16 @@
 'use client'
-import React from "react";
+import useModeState from "../navBar/Lib/modeState";
 import Image from "next/image"
 import Link from "next/link";
-import { useMediaQuery } from "react-responsive";
 
 export default function Logo() {
-    const isDarkMode = useMediaQuery({ query: '(prefers-color-scheme: dark)' });
+
+    const { isActive } = useModeState();
     return (
         <Link href={`/`} title="Go to Home">
-            {isDarkMode ? <Light/> : <Dark/> }
+            {isActive ? <Light /> : <Dark />}
         </Link>
-    )
+    );
 }
 
 export function Light () {
