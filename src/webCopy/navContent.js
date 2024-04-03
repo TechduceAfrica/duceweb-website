@@ -39,7 +39,7 @@ export const menuLinks = [
 
 export const socialMediaLinks = [
     {
-        title: `Ducehost LinkedIn`,
+        title: `LinkedIn`,
         icons: `/icons/linkedin.svg`,
         svg: `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
                     <path d="M15.3281 13.195C15.3278 13.8313 15.0888 14.4413 14.6637 14.891C14.2386 15.3406 13.6622 15.5931 13.0614 15.5927C12.4605 15.5924 11.8843 15.3394 11.4597 14.8893C11.035 14.4392 10.7966 13.8289 10.7969 13.1926C10.7972 12.5564 11.0362 11.9464 11.4613 11.4967C11.8864 11.047 12.4628 10.7946 13.0636 10.7949C13.6645 10.7952 14.2407 11.0483 14.6653 11.4984C15.09 11.9485 15.3284 12.5588 15.3281 13.195ZM15.3961 17.3691H10.8648V32.3863H15.3961V17.3691ZM22.5555 17.3691H18.0469V32.3863H22.5102V24.5059C22.5102 20.1159 27.9137 19.7081 27.9137 24.5059V32.3863H32.3883V22.8746C32.3883 15.474 24.3906 15.7499 22.5102 19.3842L22.5555 17.3691Z" fill="#FBFBFB"/>
@@ -48,7 +48,7 @@ export const socialMediaLinks = [
         url: `https://ng.linkedin.com/company/techduce`,
     },
     {
-        title: `Ducehost Instagram`,
+        title: `Instagram`,
         icons: `/icons/instagram.svg`,
         svg: `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
                 <circle cx="22.317" cy="21.1412" r="0.449821" fill="#FBFBFB"/>
@@ -57,7 +57,7 @@ export const socialMediaLinks = [
         url: `https://www.instagram.com/ducehost/`,
     },
     {
-        title: `Ducehost X`,
+        title: `X`,
         icons: `/icons/x.svg`,
         svg: `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
                 <circle cx="22.5826" cy="21.1412" r="0.449821" fill="#FBFBFB"/>
@@ -66,7 +66,7 @@ export const socialMediaLinks = [
         url: `https://twitter.com/ducehost`,
     },
     {
-        title: `Ducehost Facebook`,
+        title: `Facebook`,
         icons: `/icons/facebook.svg`,
         svg: `<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
                     <circle cx="22.8561" cy="21.1412" r="0.449821" fill="#FBFBFB"/>
