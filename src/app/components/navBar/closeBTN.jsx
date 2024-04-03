@@ -1,8 +1,8 @@
 import style from "./navbar.module.css"
 
-export default function CloseBTN() {
+export default function CloseBTN({  toggleMenu }) {
     return (
-        <div className={style.close}>
+        <div className={style.close} onClick={toggleMenu}>
             <span>
                 close
             </span>
