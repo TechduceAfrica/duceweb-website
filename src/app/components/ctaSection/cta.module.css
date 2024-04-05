@@ -1,0 +1,15 @@
+.sec__wrapper{
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.content__wrapper{
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.content__wrapper p{
+    margin-top: 32px;
+    margin-bottom: 74px;
+}
