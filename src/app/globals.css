@@ -33,8 +33,10 @@
   --wine-700: #5c1f3d;
   --wine-800: #45172e;
   --wine-900: #361224;
+  --bg: #F8F8F8;
+  --text: #03160A;
 }
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root{
     --bg: #F8F8F8;
     --text: #03160A;
@@ -47,8 +49,18 @@
     background-color: var(--green-900);
     color: var(--green-200);
   }
+} */
+html[data-theme='light'] {
+  color-scheme: light;
+  --bg: #F8F8F8;
+  --text: #03160A;
+  --color-200: #03160A;
+  --logo: url('/duceweb-black_logo.webp');
+  --spotlight-bg: url('/bg/r-line-bg-light.png');
+  --spotlight-img: url('/bg/line-bg-light.svg');
+  --cus-cursor: url('/mask-cursor.svg');
 }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root{
     --bg: #080C09;
     --text: #F8F8F8;
@@ -61,6 +73,20 @@
     background-color: black;
     color: white;
   }
+} */
+html[data-theme='dark'] {
+  --bg: #080C09;
+  --text: #F8F8F8;
+  --color-200: #E4DDD4;
+  color-scheme: dark;
+  --logo: url('/duceweb-white_logo.webp');
+  --spotlight-bg: url('/bg/r-line-bg-dark.png');
+  --spotlight-img: url('/bg/line-bg-dark.svg');
+  --cus-cursor: url('/bg/mask-cursor-light.svg');
+}
+::selection{
+  background-color: var(--green-900);
+  color: var(--green-200);
 }
 *{
   box-sizing: border-box;
@@ -96,6 +122,9 @@ h1,h2,h3,h4,button,.sub__text{
   letter-spacing: 0.01em;
   line-height: normal;
 }
+h1,h2,h3,h4,p{
+  margin: 0;
+}
 p{
   font-weight: 400;
   line-height: normal;
@@ -117,6 +146,8 @@ button{
   border: solid 4px var(--pri-color);
   color: var(--pri-color);
   background-color: var(--white);
+  cursor: pointer;
+  pointer-events: fill;
 }
 button:hover{
   color: var(--white);
@@ -125,14 +156,58 @@ button:hover{
 .container__p{
   padding-inline: 8.3%;
 }
+.rela{
+  position: relative;
+}
+.z__1{
+  z-index: 1;
+}
+.overflow__hidden{
+  overflow: hidden;
+}
+.no__pe{
+  pointer-events: none;
+}
+.logo__wrapper{
+  display: grid;
+  place-content: center;
+  background-image: var(--logo);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .logo{
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   max-width: 253px;
   max-height: 40.44px;
   aspect-ratio: 253/40.44;
+  opacity: 0;
 }
 .not__active{
   opacity: 0.5;
 }
+.footer__divider{
+  height: 1px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  background: #383838;
+}
+/* Mobile */
+@media (max-width: 768px) {
+  .logo{
+    width: auto;
+    height: auto;
+    max-width: 125.12px;
+    max-height: 20px;
+    aspect-ratio: 125.12/20;
+  }
+}
+@media (max-width: 900px) {
+  
+}
+/* Tablet and Smaller Desktop */
+@media (min-width: 769px) and (max-width: 1024px) {
 
+}

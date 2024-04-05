@@ -1,22 +1,49 @@
-.container{
+.section__wrapper{
     position: relative;
+}
+
+.container{
+    position: absolute;
     width: 100vw;
     height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
     z-index: 0;
 }
 .container>div{
     width: 100%;
     height: 100%;
 }
+/* .mask:not(:hover) {
+    -webkit-mask-position: 50% !important;
+    mask-position: 50% !important;
+} */
 .mask{
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-mask-image:url(/mask-cursor.svg);
-    mask-image: url(/mask-cursor.svg);
+    -webkit-mask-image: var(--cus-cursor);
+    mask-image: var(--cus-cursor);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     -webkit-mask-size: 200px;
     mask-size: 200px;
-    background-color: white;
+    -webkit-mask-position: 50%;
+    mask-position: 50%;
+    background-color: var(--bg);
+    pointer-events: none;
+}
+.mask>div{
+    width: 100%;
+    height: 100%;
+    background-image: var(--spotlight-img);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    background-image: var(--spotlight-bg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
