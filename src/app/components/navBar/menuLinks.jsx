@@ -1,15 +1,15 @@
 import Link from "next/link"
 
-export default function MenuLinks({ Menu }) {
+export default function MenuLinks({ Menu, toggleMenu }) {
     return (
         <>
             {Menu.map((links, index) =>
                 (
-                    <div key={index}>
+                    <li key={index} onClick={toggleMenu}>
                         <Link href={links.url}>
                             {links.title}
                         </Link>  
-                    </div>
+                    </li>
                 )
             )}
         </>
