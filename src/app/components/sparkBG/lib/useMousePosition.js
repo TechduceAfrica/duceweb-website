@@ -4,7 +4,10 @@ export default function UseMousePosition () {
     const [position, setPosition] = useState({ x: 0, y:  0 });
 
     const updatePosition = (e)  => {
-        setPosition ({x : e.clientX, y : e.clientY})
+        setPosition ({
+            x : `${e.clientX / window.innerWidth * 100}`, 
+            y : `${e.clientY / window.innerHeight * 100}`
+        })
     };
 
     useEffect( 
