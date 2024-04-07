@@ -1,8 +1,7 @@
 
 export function PageTitle({ text }) {
     return (
-        <h1>
-            {text}
+        <h1 dangerouslySetInnerHTML={ {__html: text}}>
         </h1>
     )
 }
