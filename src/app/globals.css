@@ -153,6 +153,11 @@ button:hover{
   color: var(--white);
   background-color: var(--pri-color);
 }
+h1 span{
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+}
 .container__p{
   padding-inline: 8.3%;
 }
@@ -183,6 +188,12 @@ button:hover{
   max-height: 40.44px;
   aspect-ratio: 253/40.44;
   opacity: 0;
+}
+.hero__sec{
+  padding-top: 160px;
+  padding-bottom: 60px;
+  display: flex;
+    justify-content: center;
 }
 .not__active{
   opacity: 0.5;
