@@ -13,3 +13,17 @@
     margin-top: 32px;
     margin-bottom: 74px;
 }
+@media (max-width: 768px) {
+    .content__wrapper h2, 
+    .content__wrapper p{
+        text-align: left;
+    }
+    .content__wrapper p{
+        font-size: 1.125rem;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.01125rem;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+  }

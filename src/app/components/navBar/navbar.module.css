@@ -7,9 +7,15 @@
     justify-content: space-between;
     padding-block: 2.5rem;
     z-index: 10;
+    /* mix-blend-mode: difference; */
 }
 .header>div{
     cursor: default;
+}
+.menu__btn{
+    padding: 6px 20px;
+    border-radius: 50px;
+    background-color: var(--bg);
 }
 .menu__burger{
     display: flex;

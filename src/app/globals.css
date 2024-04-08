@@ -214,6 +214,21 @@ h1 span{
     max-height: 20px;
     aspect-ratio: 125.12/20;
   }
+  h1{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+  }
+  h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.015rem;
+  }
+  .container__p{
+    padding-inline: 10px;
+  }
 }
 @media (max-width: 900px) {
   
