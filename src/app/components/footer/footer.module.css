@@ -7,11 +7,9 @@
     display: flex;
     justify-content: space-between;
     gap: 20px 64px;
-    /* flex-wrap: wrap; */
 }
 .container__inner{
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 0px 48px;
 }
 .intro{
@@ -60,3 +58,35 @@
 .link__wrapper li, .touch li{
     display: block;
 }
+@media (max-width: 768px) {
+    .container{
+        padding-block: 40px;
+    }
+    .container>div:nth-child(1){
+        display: grid;
+    }
+    .container p{
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.01rem;
+    }
+    .container__inner{
+        flex-direction: column;
+    }
+    .link__wrapper>div, .touch>div{
+        gap: 20px;
+    }
+    .link__wrapper a, .touch li{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.24px;
+    }
+    .credit{
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+    .credit>div:nth-child(2) a{
+        color: var(--green-300);
+    }
+  }
