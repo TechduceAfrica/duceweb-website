@@ -23,12 +23,17 @@ export default function Footer() {
                     <Link href={`/`}>
                         Terms & Conditions
                     </Link>
+                    <span> | </span>
                     <Link href={`/`}>
                         Privacy Policy
                     </Link>
                 </div>
                 <div>
-                    Copyright 2020 Techduce.Africa | All Rights Reserved.
+                    Copyright 2020 <Link 
+                        href={`https://techduce.africa/`} 
+                        title="Techduce Africa Link" 
+                        target="_blank"
+                        rel="noopener noreferrer">Techduce.Africa</Link> | All Rights Reserved.
                 </div>
             </div>
         </footer>
