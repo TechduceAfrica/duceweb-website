@@ -12,7 +12,7 @@ export default function NavBar() {
             <div className="logo__wrapper">
                 <Logo/>
             </div>
-            <div onClick={toggleMenu} >
+            <div onClick={toggleMenu} className={style.menu__btn} >
                 <HamburgerBtn/>
             </div>
             <NavMenu isClose={isClose} toggleMenu={toggleMenu}/>
