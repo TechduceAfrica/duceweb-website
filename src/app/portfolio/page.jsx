@@ -7,7 +7,7 @@ import CtaSection from "../components/ctaSection";
 
 export default function PortfolioPage() {
     return (
-        <main>
+        <main className="container__p">
             <section className="hero__sec no__pe">
                 <PageTitle text={mainPage.title}/>
             </section>
