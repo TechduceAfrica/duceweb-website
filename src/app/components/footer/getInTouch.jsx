@@ -1,5 +1,6 @@
 import { gInTouchCopy } from "@/webCopy/footerContent";
 import style from "./footer.module.css"
+import Link from "next/link";
 
 export default function GetInTouch() {
     return (
@@ -8,20 +9,44 @@ export default function GetInTouch() {
                 Get in Touch
             </span>
             <div>
-                <li>
-                    {gInTouchCopy.address}
-                </li>
+                <Link 
+                    href={gInTouchCopy.addressLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <li>
+                        {gInTouchCopy.address}
+                    </li>
+                </Link>
                 <div>
-                    <li>
-                        {gInTouchCopy.mailOne}
-                    </li>
-                    <li>
-                        {gInTouchCopy.mailTwo}
-                    </li>
+                    <Link 
+                        href={gInTouchCopy.mailOneLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <li>
+                            {gInTouchCopy.mailOne}
+                        </li>
+                    </Link>
+                    <Link 
+                        href={gInTouchCopy.mailTwoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <li>
+                            {gInTouchCopy.mailTwo}
+                        </li>
+                    </Link>
                 </div>
-                <li>
-                    {gInTouchCopy.phoneNumber}
-                </li>
+                <Link 
+                    href={gInTouchCopy.phoneNumberLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <li>
+                        {gInTouchCopy.phoneNumber}
+                    </li>
+                </Link>
             </div>
         </div>
     )
