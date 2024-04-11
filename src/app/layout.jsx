@@ -1,9 +1,14 @@
-import { Outfit } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
 
-const inter = Outfit({ subsets: ["latin"] });
+const inter = Poppins({ 
+  weight: [ "300" , "400", "500", "600", "700", "800", "900"],   
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--poppins-font",
+});
 
 export const metadata = {
   title: "DuceWeb Website",
