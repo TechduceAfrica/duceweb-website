@@ -117,8 +117,12 @@ export const PortfolioClient = [
         client: `WOWFACTORBYREMIX`,
         slug: `/portfolio/wow-factor-by-remix`,
         desc: `A jewelry personified and luxurious ecommerce store, they specialize in retail fashion jewelry, accessories. and adorable for all type of perfect wears and occasions.`,
-        challenge: ``,
-        solution: ``,
+        challenge: `<li>The fashion jewelry and accessories market is saturated with competitors, making it challenging for the brand to stand out and attract customers.</li>
+        <li>Despite offering high-quality products, the brand struggled with low brand awareness and visibility among its target audience.</li>
+        <li>With the rise of online shopping, the brand may faced difficulties in optimizing its e-commerce platform to provide a seamless and enjoyable shopping experience for customers.</li>`,
+        solution: `<li>Develop a unique brand identity and value proposition that sets the brand apart from competitors, focusing on aspects such as design aesthetics, product quality, and customer experience.</li>
+        <li>Implement targeted marketing campaigns across various channels, including social media, influencer partnerships, and email marketing, to increase brand visibility and attract new customers.</li>
+        <li>Revamp the brand's e-commerce platform to improve user interface, navigation, and checkout process, optimizing it for both desktop and mobile users.</li>`,
         approach: `<ul><li>Market Analysis: Conduct a comprehensive analysis of the fashion jewelry and accessories market to identify emerging trends, customer preferences, and competitive landscape.</li>
         <li>Brand Identity Development: Collaborate with the brand's team to refine its brand identity, ensuring consistency across all touchpoints and communications.</li>
         <li>Technology Integration: Work with experienced developers and designers to implement technological solutions and enhancements to the brand's e-commerce platform, prioritizing user experience and performance.</li></ul>`,
@@ -172,43 +176,49 @@ export const PortfolioClient = [
         link: `/`,
         img1: {
             src: `/images/Beeolix-fashion-screens-website-uiux-duceWeb.webp`,
-            alt: `Wow factor by remix website design UI UX`,
+            alt: `grok brand website design UI UX`,
             title: ``,
             width: `1440`,
             height: `930`,
         },
         img2: {
             src: `/images/Beeolix-fashion-product-page-uiux-duceWeb.png`,
-            alt: `Wow factor by remix website design UI UX`,
+            alt: `grok brand website design UI UX`,
             title: ``,
             width: `460`,
             height: `929`,
         },
         img3: {
             src: `/images/Beeolix-fashion-uiux.png`,
-            alt: `Wow factor by remix website design UI UX`,
+            alt: `grok brand website design UI UX`,
             title: ``,
             width: `470`,
             height: `644`,
         },
         img4: {
             src: `/images/Beeolix-fashion-uiux-screens.png`,
-            alt: `Wow factor by remix website design UI UX`,
+            alt: `grok brand website design UI UX`,
             title: ``,
             width: `1200`,
             height: `972`,
         },
-        clientColor: `#E2AE25`,
+        clientColor: `#454545`,
     },
     {
         id: `0004`,
         client: `ASKSHOLA`,
         slug: `/portfolio/askshola`,
         desc: `Askshola is a business transforming website owned by an innovative Business Developer and tech Enthusiast, equipping businesses with the tools they need to thrive in today’s dynamic market.`,
-        challenge: ``,
-        solution: ``,
-        approach: ``,
-        result: ``,
+        challenge: `<li>Bringing a fresh and innovative idea like Askshola to life required careful planning and creative brainstorming to ensure it effectively met the needs of its target audience.</li>
+        <li>Designing a website from scratch meant prioritizing user experience and interface design to create an intuitive and engaging platform for visitors.</li>
+        <li>Developing compelling and informative content for Askshola's website posed a challenge in effectively communicating its value proposition and offerings to potential users.</li>`,
+        solution: `<li>Collaborated closely with Askshola's team to translate their vision into a tangible website design, incorporating innovative features and functionalities to set it apart in the market.</li>
+        <li>Conducted extensive testing and feedback sessions during the website development process to ensure the final product met the needs and preferences of the target audience.</li>
+        <li>Worked with Askshola to develop a comprehensive content strategy, focusing on clear messaging, engaging storytelling, and valuable resources to attract and retain visitors.</li>`,
+        approach: `<ul><li>Research and Discovery: Conducted thorough market research and competitor analysis to identify opportunities and gaps in the market that Askshola could capitalize on.</li>
+        <li>Iterative Design Process: Adopted an iterative design process, creating prototypes and wireframes to visualize the website's structure and functionality before finalizing the design.</li>
+        <li>Agile Development: Implemented an agile development approach, allowing for flexibility and responsiveness to changes and feedback throughout the website's development and launch phases.</li></ul>`,
+        result: `Through the partnership between ASKSHOLA and DuceWeb, the creation of the website has brought the brand's fresh idea to life, providing a valuable platform for businesses to thrive in today's dynamic market.`,
         link: `/`,
         img1: {
             src: `/images/Beeolix-fashion-screens-website-uiux-duceWeb.webp`,
@@ -238,17 +248,21 @@ export const PortfolioClient = [
             width: `1200`,
             height: `972`,
         },
-        clientColor: `#E2AE25`,
+        clientColor: `#996634`,
     },
     {
         id: `0005`,
         client: `SKYWORLD LINK TRAVELS`,
         slug: `/portfolio/skyworld-link-travels`,
         desc: `A Travel and Tour Management Company, connecting people to their dream destination, having a never ending experience of a lifetime.`,
-        challenge: ``,
-        solution: ``,
-        approach: ``,
-        result: ``,
+        challenge: `<p>The travel industry is highly competitive, with numerous agencies vying for the attention of travelers. In an increasingly digital world, the agency may have struggled to adapt its traditional business model to effectively leverage online channels and technologies. Building and maintaining trust with customers is crucial in the travel industry, where experiences and recommendations play a significant role in decision-making.</p>`,
+        solution: `<li>Update the agency's offerings to cater to modern traveler preferences, such as personalized itineraries, experiential travel packages, and online booking capabilities.</li>
+        <li>Develop a robust digital marketing strategy encompassing website optimization, social media presence, email marketing campaigns, and online advertising to increase brand visibility and attract potential customers.</li>
+         <li>Implement a customer relationship management (CRM) system to better understand and engage with clients, personalize communications, and enhance overall customer satisfaction and loyalty.</li>`,
+        approach: `<ul><li>Conduct thorough research on market trends, customer preferences, and competitor strategies to identify opportunities for differentiation and growth.</li>
+        <li>Collaborate closely with the agency's team to develop a comprehensive roadmap for the revamp, ensuring alignment with the company's goals and values.</li>
+        <li>Adopt an agile approach to implementation, breaking down the revamp into manageable phases and continuously gathering feedback to iterate and refine the strategies and solutions.</li></ul>`,
+        result: `This comprehensive revamp has positioned the travel agency as a reliable and competitive player in the industry, equipped to meet the evolving needs of modern travelers and continue its success for years to come.`,
         link: `/`,
         img1: {
             src: `/images/Beeolix-fashion-screens-website-uiux-duceWeb.webp`,
@@ -278,7 +292,7 @@ export const PortfolioClient = [
             width: `1200`,
             height: `972`,
         },
-        clientColor: `#E2AE25`,
+        clientColor: `#653064`,
     },
     {
         id: `0006`,
