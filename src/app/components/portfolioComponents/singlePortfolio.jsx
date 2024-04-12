@@ -10,8 +10,11 @@ export default function SinglePortfolio({ Elements }) {
                 (
                     <Link 
                         key={index} 
-                        href={element.link} 
-                        className={style.el}>
+                        href={element.link}
+                        target="_blank"
+                        rel="noopener noreferrer" 
+                        className={style.el}
+                    >
                         <div className={style.wrapper}>
                             <Image {...element}/>
                         </div>
