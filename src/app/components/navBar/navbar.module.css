@@ -115,13 +115,12 @@
 .menu__link>li{
     display: flex;
     align-items: center;
-    /* min-height: 72px; */
 }
 .menu__link>li>a{
-    margin-block: 9px;
-    font-size: 36px;
+    margin-block: 0.25rem;
+    font-size: 1.75rem;
     font-weight: 600;
-    letter-spacing: 0.36px;
+    letter-spacing: 0.0225rem;
 }
 .bottom__right{
     display: grid;
