@@ -38,7 +38,10 @@ export default function NavMenu({ isClose, toggleMenu }) {
                 <div 
                     className={style.menu__link}
                 >
-                    <MenuLinks Menu={menuLinks} toggleMenu={toggleMenu}/>
+                    <MenuLinks 
+                        Menu={menuLinks} 
+                        toggleMenu={toggleMenu}
+                    />
                 </div>
                 <motion.div 
                     className={style.bottom__right}
