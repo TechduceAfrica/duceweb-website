@@ -1,0 +1,122 @@
+.hero__wrapper{
+    margin-top: 120px;
+    padding-block: 80px;
+}
+.hero__wrapper>div{
+    max-width: 1016px;
+}
+.card__wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    max-width: 380px;
+    flex-shrink: 1;
+    padding: 70px 20px;
+    background: var(--light);
+    box-shadow: 0px 8px 24px 0px rgba(112, 144, 176, 0.15);
+}
+.card h2{
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    letter-spacing: 0.0225rem;
+}
+.price__box{
+    display: grid;
+}
+.price__box span:first-child{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.04rem;
+}
+.price__box span:nth-child(2){
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+}
+.benefit__wrapper{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 10px;
+    background: var(--pri-container);    
+}
+.benefit__wrapper h3{
+    color: #104A26;
+}
+.benefit__wrapper li{
+    color: #0A0A0A;  
+}
+.card li{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    letter-spacing: 0.14px;
+}
+.card h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+.component__wrapper{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 16px;
+}
+.card summary{
+    cursor: pointer;
+}
+.card button{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    padding: 16px 40px;
+    width: 100%;
+}
+.table__wrapper, 
+.card__wrapper{
+    padding-block: 80px;
+}
+.table__wrapper table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: inherit;
+}
+.table__wrapper th{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+.table__wrapper :is(th, td){
+    padding: 24px 10px;
+    text-align: left;
+    border-bottom: solid 1px #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+@media (max-width: 768px){
+    .table__wrapper :is(svg,img){
+        width: 25px;
+    }
+}
