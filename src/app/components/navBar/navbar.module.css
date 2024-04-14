@@ -74,7 +74,6 @@
 }
 .top{
     align-items: center;
-    /* overflow: hidden; */
 }
 .close{
     display: flex;
@@ -110,7 +109,7 @@
 .menu__link{
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 25px;
 }
 .menu__link>li{
     display: flex;
