@@ -1,6 +1,6 @@
 .sec__wrapper{
     position: relative;
-    min-height: 100vh;
+    min-height: 70vh;
     display: grid;
     place-content: center;
 }
