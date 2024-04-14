@@ -36,50 +36,26 @@
   --bg: #F8F8F8;
   --text: #03160A;
 }
-/* @media (prefers-color-scheme: light) {
-  :root{
-    --bg: #F8F8F8;
-    --text: #03160A;
-    --color-200: #03160A;
-  }
-  html{
-    color-scheme: light;
-  }
-  ::selection{
-    background-color: var(--green-900);
-    color: var(--green-200);
-  }
-} */
 html[data-theme='light'] {
   color-scheme: light;
   --bg: #F8F8F8;
   --text: #03160A;
   --color-200: #03160A;
   --divider: #454545;
+  --light:#fff;
+  --dark: #000;
   --logo: url('/duceweb-black_logo.webp');
   --spotlight-bg: url('/bg/r-line-bg-light.png');
   --spotlight-img: url('/bg/line-bg-light.svg');
   --cus-cursor: url('/mask-cursor.svg');
 }
-/* @media (prefers-color-scheme: dark) {
-  :root{
-    --bg: #080C09;
-    --text: #F8F8F8;
-    --color-200: #E4DDD4;
-  }
-  html{
-    color-scheme: dark;
-  }
-  body{
-    background-color: black;
-    color: white;
-  }
-} */
 html[data-theme='dark'] {
   --bg: #080C09;
   --text: #F8F8F8;
   --color-200: #E4DDD4;
   --divider: #666;
+  --light:#000;
+  --dark: #fff;
   color-scheme: dark;
   --logo: url('/duceweb-white_logo.webp');
   --spotlight-bg: url('/bg/r-line-bg-dark.png');
@@ -142,14 +118,19 @@ a{
   transition: all 300ms ease-in-out;
 }
 button{
-  padding: 1rem 40px;
+  font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1rem 100px;
   border-radius: 100px;
   letter-spacing: 0.03rem;
   border: solid 4px var(--pri-color);
   color: var(--pri-color);
-  background-color: var(--white);
+  background-color: var(--bg);
   cursor: pointer;
   pointer-events: fill;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  transition: all 500ms ease-in-out;
 }
 button:hover{
   color: var(--white);
@@ -237,6 +218,12 @@ h1 span{
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.01rem;
+  }
+  button{
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.0125rem;
+    margin: 0;
   }
   .container__p{
     padding-inline: 20px;
