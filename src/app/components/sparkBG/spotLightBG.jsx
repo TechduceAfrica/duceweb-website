@@ -8,7 +8,6 @@ export default function SpotLightBG() {
 
     const [left, setLeft] = useState("50%");
     const [top, setTop] = useState("50%");
-    // const [isHovered, setisHovered] = useState(null);
 
     const curX = `${left}%`;
     const curY = `${top}%`;
