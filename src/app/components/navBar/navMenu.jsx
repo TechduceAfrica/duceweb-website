@@ -6,7 +6,6 @@ import Mode from "./mode"
 import Logo from "../logo"
 import { menuLinks, socialMediaLinks } from "@/webCopy/navContent"
 import { menuVariant, innerTop, fadeInCenter } from "./Lib/animate"
-import { useMenuState } from "./Lib/menuState"
 import style from "./navbar.module.css"
 
 export default function NavMenu({ isClose, toggleMenu }) {
