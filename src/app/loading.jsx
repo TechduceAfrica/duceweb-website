@@ -1,11 +1,7 @@
-import styles from "./page.module.css";
+import Loading from "./_loading";
 
 export default function LoadingPage() {
     return (
-        <div className={styles.main}>
-            <h1>
-                Loading
-            </h1>
-        </div>
+        <Loading/>
     )
 }
