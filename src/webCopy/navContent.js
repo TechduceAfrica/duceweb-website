@@ -6,6 +6,14 @@ export const logoFile = {
     width: 253,
 }
 
+export const loadingLogoFile = {
+    src:"/loading-logo.webp",
+    alt:"Duceweb-Loading-logo", 
+    title:"Duceweb-Loading-logo",
+    height: 200,
+    width: 200,
+}
+
 export const menuLinks = [
     {
         title: `Home`,
