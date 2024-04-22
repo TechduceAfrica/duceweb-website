@@ -1,0 +1,50 @@
+.loading__screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+    gap: 200px;
+    background-color: #223a2c;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    pointer-events: none;
+}
+.loading__img{
+    animation: pulse 5000ms infinite 0ms linear;
+}
+
+@keyframes pulse {
+    to{
+        transform: scale(0.5);
+        transform-origin: center;
+    }
+}
+
+.loading__balls{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loading__balls span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    animation: loading 2500ms infinite 0ms linear;
+    animation-delay: calc(var(--spd) * 0.5s);
+}
+
+@keyframes loading {
+    0%,100%{
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+    50%{
+        opacity: 0.3;
+        transform: scale(0.5) translateY(-50px);
+        transform-origin: center;
+    }
+}
