@@ -27,7 +27,7 @@ export default function Carousel() {
             options={ options }
         >
             {TestimonialsCopy.map(( copy, index ) => (
-                <SplideSlide>
+                <SplideSlide key={index}>
                     <Single 
                         img={copy.img} 
                         testimony={copy.testimony}
