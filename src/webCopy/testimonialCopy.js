@@ -1,9 +1,9 @@
 export const TestimonialsCopy = [
     {
         img: {
-            src: ``,
-            alt: ``,
-            title: ``,
+            src: `/images/Testimonial-bg.webp`,
+            alt: `PosFik Testmony`,
+            title: `PosFik Testmony`,
             width: `1440`,
             height: `772`,
         },
@@ -13,9 +13,9 @@ export const TestimonialsCopy = [
     },
     {
         img: {
-            src: ``,
-            alt: ``,
-            title: ``,
+            src: `/images/Testimonial-bg.webp`,
+            alt: `Grokbrand Testmony`,
+            title: `Grokbrand Testmony`,
             width: `1440`,
             height: `772`,
         },
@@ -25,9 +25,9 @@ export const TestimonialsCopy = [
     },
     {
         img: {
-            src: ``,
-            alt: ``,
-            title: ``,
+            src: `/images/Testimonial-bg.webp`,
+            alt: `Data Adie Testmony`,
+            title: `Data Adie Testmony`,
             width: `1440`,
             height: `772`,
         },
@@ -37,9 +37,9 @@ export const TestimonialsCopy = [
     },
     {
         img: {
-            src: ``,
-            alt: ``,
-            title: ``,
+            src: `/images/Testimonial-bg.webp`,
+            alt: `Mediglo Testmony`,
+            title: `Mediglo Testmony`,
             width: `1440`,
             height: `772`,
         },
