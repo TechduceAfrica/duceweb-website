@@ -8,7 +8,7 @@ export default function Template({ children }) {
     const [loading, setLoading] = React.useState(false)
  
     React.useEffect(() => {
-        setTimeout(() => setLoading(true), 5000);
+        setTimeout(() => setLoading(true), 3000);
     }, [])
 
     React.useEffect(() => {
