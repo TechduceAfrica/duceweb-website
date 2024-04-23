@@ -1,0 +1,78 @@
+.wrapper>div{
+    position: relative;
+}
+.single__wrapper{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 772px;
+}
+.single__wrapper img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.copy__wrapper{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    display: grid;
+    gap: 40px;
+    color: var(--bg);
+    max-width: 68%;
+}
+.copy__wrapper h2{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+}
+.single__testimony{
+    display: grid;
+    gap: 20px;
+}
+.single__testimony p{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0.36px;
+}
+.single__metadata{
+    display: grid;
+    gap: 4px;
+}
+.single__metadata span{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+}
+@media (768px <= width <= 1010px) {
+    .copy__wrapper{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        display: grid;
+        gap: 40px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .single__wrapper{
+        height: 100%;
+    }
+    .single__wrapper img{
+        height: 100%;
+    }
+    .copy__wrapper{
+        max-width: 100%;
+    }    
+    .copy__wrapper h2, .single__metadata span{
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+    .single__testimony p{
+        font-size: 1rem;
+        letter-spacing: 0.01rem;
+    }
+}
