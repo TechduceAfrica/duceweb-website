@@ -1,15 +1,11 @@
-import Image from 'next/image'
 import React from 'react'
-import { Body, Title } from '../text'
+import Carousel from './carousel'
+import style from './testimonial.module.css'
 
-export default function Testimonial({ img, testimony, clientName, brand }) {
+export default function Testimonial() {
     return (
-        <section>
-            <Image {...img} onError={img} placeholder={blur}/>
-            <Title text={'Testimonials'}/>
-            <Body text={testimony}/>
-            <span>{clientName}</span>
-            <span>{brand}</span>
+        <section className={style.wrapper}>
+            <Carousel/>
         </section>
     )
 }
