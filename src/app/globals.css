@@ -191,6 +191,33 @@ h1 span{
 .portfolio__works__page h2{
   margin-bottom: 24px;
 }
+.splide__arrow{
+  display: grid;
+  place-content: center;
+  width: 80px;
+  height: 80px;
+  padding: 17px;
+  border-radius: 80px;
+  border: solid 3px rgba(31, 31, 31, 0.40);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #FFF;
+}
+.splide__arrows.splide__arrows--ltr{
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  bottom: 80px;
+  left:  8.3%;
+  z-index: 1;
+  & path{
+    fill: #FBFBFB;
+  }
+}
+.splide__arrow--prev svg{
+  transform: rotate(0.5turn);
+}
+.splide__pagination.splide__pagination--ltr{
+  display: none;
+}
 /* Mobile */
 @media (max-width: 768px) {
   .logo{
@@ -227,6 +254,20 @@ h1 span{
   }
   .container__p{
     padding-inline: 20px;
+  }
+  .splide__arrow{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    & svg{
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .splide__arrows.splide__arrows--ltr{
+    gap: 20px;
+    bottom: 50px;
+    left:  20px;
   }
 }
 @media (max-width: 900px) {
