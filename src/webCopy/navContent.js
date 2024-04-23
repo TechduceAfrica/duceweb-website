@@ -21,7 +21,7 @@ export const menuLinks = [
     },
     {
         title: `About`,
-        url: `/about`,
+        url: `/about-duceweb`,
     },
     {
         title: `Portfolio`,
