@@ -13,7 +13,7 @@ export const aboutImg = {
 
 export const approach = {
     title: `Our Approach`,
-    cards: [
+    leftCards: [
         {
             topic: `Ideate`,
             img: {
@@ -26,17 +26,6 @@ export const approach = {
             body: `This is where the <span>magic starts! </span> It's the moment we gather <span>thoughts, </span> imagine <span>possibilities, </span> and shape <span>an overall concept.</span>`,
         },
         {
-            topic: `Design`,
-            img: {
-                src: `/images/Design-icon.png`,
-                alt: `DuceWeb Approach - Design`,
-                title: `DuceWeb Approach - Design`,
-                width: `130`,
-                height: `130`,
-            },
-            body: `After we've got our ideas, it's time to make them look good and work smoothly to provide a functional digital product.`,
-        },
-        {
             topic: `Develop`,
             img: {
                 src: `/images/Develop-icon.png`,
@@ -45,7 +34,20 @@ export const approach = {
                 width: `130`,
                 height: `130`,
             },
-            body: `Now that you have a plan and a design, it's time to bring your digital product to life!`,
+            body: `Now that you have <span>a plan </span>and <span>a design, </span> it's time to bring your <span>digital product to life!</span>`,
+        },
+    ],
+    rightCards: [
+        {
+            topic: `Design`,
+            img: {
+                src: `/images/Design-icon.png`,
+                alt: `DuceWeb Approach - Design`,
+                title: `DuceWeb Approach - Design`,
+                width: `130`,
+                height: `130`,
+            },
+            body: `After we've got <span>our ideas, </span>it's time to make them <span>look good </span>and <span>work smoothly </span>to provide <span>a functional digital product.</span>`,
         },
         {
             topic: `Maintain`,
@@ -56,7 +58,7 @@ export const approach = {
                 width: `130`,
                 height: `130`,
             },
-            body: `Your digital product is live! We ensure smooth operation, and occasionally add new features or enhancements.`,
+            body: `<span>Your digital product is live! </span>We ensure <span>smooth operation, </span>and occasionally <span>add new features or enhancements.</span>`,
         },
     ]
 }
