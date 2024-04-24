@@ -1,8 +1,7 @@
 
 export default function Body({ text }) {
     return (
-        <p>
-            {text}
+        <p dangerouslySetInnerHTML={ {__html: text}}>
         </p>
     )
 }
