@@ -1,0 +1,96 @@
+.approach__wrapper{
+    padding-block: 80px;
+    display: grid;
+    row-gap: 155px;
+}
+.hero__wrapper{
+    margin-top: 200px;
+    margin-bottom: 80px;
+    max-width: 830px;
+}
+.about__bg__img__wrapper{
+    overflow: hidden;
+    width: 100%;
+    height: 680px;
+}
+.about__bg__img{
+    transition: all 500ms ease-in-out;
+}
+.about__bg__img img{
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    object-position: center;
+    filter: saturate(0.2);
+    transition: all 450ms ease-in-out;
+}
+.about__bg__img img:hover{
+    filter: saturate(1);
+}
+.cards__wrapper{
+    display: flex;
+    gap: 24px;
+}
+.cards__wrapper__sec{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.single__card__wrapper{
+    align-self: self-start;
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 40px;
+    border: 1px solid rgba(35, 164, 85, 0.30);
+    opacity: .3;
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+}
+:is(.left .single__card__wrapper:first-child, .right .single__card__wrapper:last-child) .bg{
+    background: radial-gradient(50% 50% at 50% 50%, #1A8945 0%, rgba(35, 164, 85, 0.60) 14.83%, rgba(139, 253, 183, 0.00) 49%);
+}
+:is(.left .single__card__wrapper:last-child, .right .single__card__wrapper:first-child) .bg{
+    background: radial-gradient(50% 50% at 50% 50%, #936 0%, rgba(153, 51, 102, 0.60) 14.83%, rgba(255, 165, 210, 0.00) 49%);
+}
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: lighten;
+    -webkit-backdrop-filter: blur(29.649999618530273px);
+    backdrop-filter: blur(29.649999618530273px);
+    filter: blur(40px);
+    z-index: -1;
+}
+.single__card__wrapper:hover{
+    opacity: 1;
+}
+:is(.left .single__card__wrapper:first-child, .right .single__card__wrapper:last-child) img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+}
+.single__card__wrapper p{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+    color: var(--fade-text);
+}
+.single__card__wrapper span{
+    color: var(--text);
+}
+.card__top{
+    display: flex;
+}
+@media (max-width: 768px){
+    .cards__wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+}
