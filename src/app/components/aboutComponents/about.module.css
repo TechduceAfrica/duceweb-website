@@ -89,8 +89,21 @@
     display: flex;
 }
 @media (max-width: 768px){
+    .approach__wrapper{
+        row-gap: 40px;
+        padding-block: 40px;
+    }
     .cards__wrapper{
         flex-direction: column;
         align-items: center;
+    }
+    .single__card__wrapper{
+        padding: 20px;
+    }
+    .card__top img, 
+    :is(.left .single__card__wrapper:first-child, .right .single__card__wrapper:last-child) img{
+        width: 150px;
+        height: 150px;
+        aspect-ratio: 150/150;
     }
 }
