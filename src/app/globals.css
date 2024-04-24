@@ -44,6 +44,7 @@ html[data-theme='light'] {
   --divider: #454545;
   --light:#fff;
   --dark: #000;
+  --fade-text: #454545;
   --logo: url('/duceweb-black_logo.webp');
   --spotlight-bg: url('/bg/r-line-bg-light.png');
   --spotlight-img: url('/bg/line-bg-light.svg');
@@ -56,6 +57,7 @@ html[data-theme='dark'] {
   --divider: #666;
   --light:#000;
   --dark: #fff;
+  --fade-text: #B7B7B7;
   color-scheme: dark;
   --logo: url('/duceweb-white_logo.webp');
   --spotlight-bg: url('/bg/r-line-bg-dark.png');
