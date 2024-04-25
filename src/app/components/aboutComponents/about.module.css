@@ -88,6 +88,85 @@
 .card__top{
     display: flex;
 }
+.flip__section{
+    padding-block: 80px;
+}
+.flip__section h2{
+    text-align: center;
+}
+.flip__cards__parent__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.flip__card__wrapper{
+    width: calc( 50% - 20px );
+    display: grid;
+    row-gap: 40px;
+}
+.flip__card{
+    position: relative;
+    width: 100%;
+    max-width: 588px;
+    height: 735px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.flip__card:hover .front, 
+.flip__card .back{
+    transform: scaleX(-1);
+    opacity: 0;
+}
+.front{
+    position: absolute;
+    top: 0;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    row-gap: 62px;
+    transition: all 500ms ease-in-out;
+}
+.front__content{
+    display: grid;
+    row-gap: 32px;
+    padding-top: 40px;
+    padding-inline: 40px;
+}
+.front__content__top{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.flip__card h3{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    letter-spacing: 0.03rem;
+    max-width: 374px;
+}
+.flip__card:is(p, li){
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+}
+.img__wrapper{
+    line-height: 0;
+    justify-self: flex-end;
+}
+.flip__card:hover .back{
+    opacity: 1;
+    transform: scaleX(1);
+}
+.back{
+    background-color: #080C09;
+    color: #FFF;
+    transition: all 500ms ease-in-out 250ms;
+}
+
+
 @media (max-width: 768px){
     .approach__wrapper{
         row-gap: 40px;
