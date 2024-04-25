@@ -1,4 +1,4 @@
 import { PageTitle, Title, SubTitle, Label } from "./heading";
-import Body from "./body";
+import { Body, NormalBody } from "./body";
 
-export {PageTitle, Title, SubTitle, Label, Body};
+export {PageTitle, Title, SubTitle, Label, Body, NormalBody};
