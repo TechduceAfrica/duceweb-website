@@ -64,19 +64,103 @@ export const approach = {
 }
 
 export const wwdo = {
-    title: ``,
-    cards: [
+    title: `What We do`,
+    leftCards: [
         {
-            title: `Mobile App Development`,
-            desc: ``,
-            img: {
-                src: `/images/Maintain-icon.png`,
-                alt: `DuceWeb Approach - Maintain`,
-                title: `DuceWeb Approach - Maintain`,
-                width: `130`,
-                height: `130`,
+            front: {
+                title: `Mobile App Development`,
+                desc: `Android and IOS`,
+                img: {
+                    src: `/images/Maintain-icon.png`,
+                    alt: `DuceWeb-Mobile App Development`,
+                    title: `DuceWeb-Mobile App Development`,
+                    width: `588`,
+                    height: `455`,
+                },
+                color: `#1D8C01`,
             },
-            color: ``,
-        }
-    ]
+            back: {
+                title: `Mobile App Development`,
+                lists: [
+                    {list: `Basic Mobile App Package`},
+                    {list: `Advance Mobile App Package`},
+                    {list: `Starter E-commerce  Package`},
+                    {list: `Pro E-commerce  Package`},
+                    {list: `Enterprise E-commerce  Package`},
+                ]
+            }
+            
+        },
+        {
+            front: {
+                title: `Custom Coded Frameworks`,
+                desc: `React JS, Next JS, HTML, CSS`,
+                img: {
+                    src: `/images/Maintain-icon.png`,
+                    alt: `DuceWeb-Mobile App Development`,
+                    title: `DuceWeb-Mobile App Development`,
+                    width: `588`,
+                    height: `455`,
+                },
+                color: `#3E96FF`,
+            },
+            back: {
+                title: `Custom Websites`,
+                lists: [
+                    {list: `Basic Custom Website Package`},
+                    {list: `Advance Custom Website Package`},
+                    {list: `Enterprise Custom Website Package`},
+                ]
+            },   
+        },
+    ],
+    rightCards: [
+        {
+            front: {
+                title: `Mobile App Development`,
+                desc: `Android and IOS`,
+                img: {
+                    src: `/images/Maintain-icon.png`,
+                    alt: `DuceWeb-Mobile App Development`,
+                    title: `DuceWeb-Mobile App Development`,
+                    width: `588`,
+                    height: `455`,
+                },
+                color: `#1D8C01`,
+            },
+            back: {
+                title: `Mobile App Development`,
+                lists: [
+                    {list: `Basic Mobile App Package`},
+                    {list: `Advance Mobile App Package`},
+                    {list: `Starter E-commerce  Package`},
+                    {list: `Pro E-commerce  Package`},
+                    {list: `Enterprise E-commerce  Package`},
+                ]
+            }
+            
+        },
+        {
+            front: {
+                title: `Custom Coded Frameworks`,
+                desc: `React JS, Next JS, HTML, CSS`,
+                img: {
+                    src: `/images/Maintain-icon.png`,
+                    alt: `DuceWeb-Mobile App Development`,
+                    title: `DuceWeb-Mobile App Development`,
+                    width: `588`,
+                    height: `455`,
+                },
+                color: `#1D8C01`,
+            },
+            back: {
+                title: `Custom Websites`,
+                lists: [
+                    {list: `Basic Custom Website Package`},
+                    {list: `Advance Custom Website Package`},
+                    {list: `Enterprise Custom Website Package`},
+                ]
+            },   
+        },
+    ],
 }
