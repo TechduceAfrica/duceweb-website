@@ -71,17 +71,24 @@ export const wwdo = {
                 title: `Mobile App Development`,
                 desc: `Android and IOS`,
                 img: {
-                    src: `/images/Maintain-icon.png`,
+                    src: `/images/mobile-app-development.png`,
                     alt: `DuceWeb-Mobile App Development`,
                     title: `DuceWeb-Mobile App Development`,
                     width: `588`,
                     height: `455`,
                 },
+                icon: {
+                    src: `/icons/icon-green.svg`,
+                    alt: `see more icon`,
+                    title: `see more icon`,
+                    width: `96`,
+                    height: `96`,
+                },
                 color: `#1D8C01`,
             },
             back: {
-                title: `Mobile App Development`,
-                lists: [
+                backTitle: `Mobile App Development`,
+                Lists: [
                     {list: `Basic Mobile App Package`},
                     {list: `Advance Mobile App Package`},
                     {list: `Starter E-commerce  Package`},
@@ -96,17 +103,24 @@ export const wwdo = {
                 title: `Custom Coded Frameworks`,
                 desc: `React JS, Next JS, HTML, CSS`,
                 img: {
-                    src: `/images/Maintain-icon.png`,
-                    alt: `DuceWeb-Mobile App Development`,
-                    title: `DuceWeb-Mobile App Development`,
+                    src: `/images/custom-coded-frameworks.png`,
+                    alt: `DuceWeb-Custom Coded Frameworks`,
+                    title: `DuceWeb-Custom Coded Frameworks`,
                     width: `588`,
                     height: `455`,
                 },
-                color: `#3E96FF`,
+                icon: {
+                    src: `/icons/icon-orange.svg`,
+                    alt: `see more icon`,
+                    title: `see more icon`,
+                    width: `96`,
+                    height: `96`,
+                },
+                color: `#E27300`,
             },
             back: {
                 title: `Custom Websites`,
-                lists: [
+                Lists: [
                     {list: `Basic Custom Website Package`},
                     {list: `Advance Custom Website Package`},
                     {list: `Enterprise Custom Website Package`},
@@ -120,17 +134,24 @@ export const wwdo = {
                 title: `Mobile App Development`,
                 desc: `Android and IOS`,
                 img: {
-                    src: `/images/Maintain-icon.png`,
+                    src: `/images/content-management-frameworks.png`,
                     alt: `DuceWeb-Mobile App Development`,
                     title: `DuceWeb-Mobile App Development`,
                     width: `588`,
                     height: `455`,
                 },
-                color: `#1D8C01`,
+                icon: {
+                    src: `/icons/icon-purple.svg`,
+                    alt: `see more icon`,
+                    title: `see more icon`,
+                    width: `96`,
+                    height: `96`,
+                },
+                color: `#680A3F`,
             },
             back: {
                 title: `Mobile App Development`,
-                lists: [
+                Lists: [
                     {list: `Basic Mobile App Package`},
                     {list: `Advance Mobile App Package`},
                     {list: `Starter E-commerce  Package`},
@@ -142,20 +163,27 @@ export const wwdo = {
         },
         {
             front: {
-                title: `Custom Coded Frameworks`,
+                title: `Maintenance Packages`,
                 desc: `React JS, Next JS, HTML, CSS`,
                 img: {
-                    src: `/images/Maintain-icon.png`,
-                    alt: `DuceWeb-Mobile App Development`,
-                    title: `DuceWeb-Mobile App Development`,
+                    src: `/images/maintenance-packages.png`,
+                    alt: `DuceWeb-Maintenance Packages`,
+                    title: `DuceWeb-Maintenance Packages`,
                     width: `588`,
                     height: `455`,
                 },
-                color: `#1D8C01`,
+                icon: {
+                    src: `/icons/icon-blue.svg`,
+                    alt: `see more icon`,
+                    title: `see more icon`,
+                    width: `96`,
+                    height: `96`,
+                },
+                color: `#3E96FF`,
             },
             back: {
                 title: `Custom Websites`,
-                lists: [
+                Lists: [
                     {list: `Basic Custom Website Package`},
                     {list: `Advance Custom Website Package`},
                     {list: `Enterprise Custom Website Package`},
